@@ -1,0 +1,10 @@
+
+.hero{
+  background-image: url("/src/assets/globe_background.png");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+width: 100%;
+}
