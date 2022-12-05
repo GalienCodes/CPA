@@ -73,8 +73,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
 		</ul>
-		<a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6  hover:bg-orange-400  text-sm text-gray-900 font-bold  rounded-xl transition duration-200 bg-orange-300" href="#">DONATE</a>
-		<a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-100 text-sm ext-gray-900 font-bold rounded-xl transition duration-200" href="#">JOIN THE MOVEMENT</a>
+		<a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6  hover:bg-orange-400  text-sm text-gray-900 font-bold  rounded-2xl transition duration-200 bg-orange-300" href="#">DONATE</a>
+		<a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-100 text-sm ext-gray-900 font-bold rounded-2xl transition duration-200" href="#">JOIN THE MOVEMENT</a>
 	</nav>
 	<div class="navbar-menu relative z-50 hidden">
 		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
