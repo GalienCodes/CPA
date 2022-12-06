@@ -7,7 +7,7 @@ const Contriute = () => {
       Contact CPA today!</h2>
       <p className='text-center text-gray-300 mb-8 text-medium mx-4'>As if serving the world wasn;t already enticing enough, being a member of CPA brings various benifits to you as a business owner a member of CPA brings various benifits to you as a business owner</p>
 
-      <form action="#" className='flex flex-col gap-2 m-4'>
+      <form action="#" className='flex flex-col gap-4 m-4'>
         <input type="text" name="" id="" placeholder='Name' className='bg-gray-800 rounded-3xl border text-white'/>
         <input type="text" name="" id="" placeholder='Subject' className='bg-gray-800 rounded-3xl border text-white'/>
         <input type="text" name="" id="" placeholder='Email' className='bg-gray-800 rounded-3xl border text-white'/>
