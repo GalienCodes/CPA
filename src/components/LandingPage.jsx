@@ -14,8 +14,6 @@ const LandingPage = () => {
   return (
     <>
       <HeroPage/>
-      {/* <Profits/> */}
-      {/* <Members/> */}
       <Become/>
       <Fqa/>
       <News/>
