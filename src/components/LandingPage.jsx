@@ -6,7 +6,7 @@ import Footer from './modules/Footer'
 import Fqa from './modules/fqa/Fqa'
 import HeroPage from './modules/HeroPage'
 import Jobs from './modules/Jobs'
-import Members from './modules/Members'
+import SinglePartner from './modules/members/SinglePartner'
 import News from './modules/News'
 import Profits from './modules/profits/Profits'
 
@@ -14,6 +14,7 @@ const LandingPage = () => {
   return (
     <>
       <HeroPage/>
+      <SinglePartner/>
       <Become/>
       <Fqa/>
       <News/>
