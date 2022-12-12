@@ -4,7 +4,7 @@ import Footer from './Footer'
 const About = () => {
   return (
     <>
-    <div className='max-w-2xl flex flex-col  mx-auto justify-center items-center font-globalFont bg-gray-800 px-6 shadow-2xl'>
+    <div className='max-w-2xl flex flex-col  mx-auto justify-center items-center font-globalFont bg-gray-800 px-2 shadow-2xl'>
       <h2 className='text-lg md:text-2xl  text-white my-8 uppercase font-semibold'>About CPA</h2>
       <div>
           <h2 className='text-lg md:text-xl  text-white my-4 uppercase font-semibold mx-4' >Who we are</h2>
