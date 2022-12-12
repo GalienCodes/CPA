@@ -11,7 +11,8 @@ import Jobs from './modules/Jobs'
 import SinglePartner from './modules/members/SinglePartner'
 import News from './modules/News'
 import Profits from './modules/profits/Profits'
-import Team from './modules/Team'
+import Team from './modules/teams/Team'
+import Try from './modules/teams/Try'
 
 
 const LandingPage = () => {
@@ -25,7 +26,8 @@ const LandingPage = () => {
       {/* <News/> */}
       {/* <Jobs/> */}
       {/* <Contriute/> */}
-      <Team/>
+      <Try/>
+      {/* <Team/> */}
       <About/>
       <Contact/>
       <Footer/>
