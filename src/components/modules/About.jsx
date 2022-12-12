@@ -1,7 +1,9 @@
 import React from 'react'
+import Footer from './Footer'
 
 const About = () => {
   return (
+    <>
     <div className='max-w-2xl flex flex-col  mx-auto justify-center items-center font-globalFont bg-gray-800 px-6 shadow-2xl'>
       <h2 className='text-lg md:text-2xl  text-white my-8 uppercase font-semibold'>About CPA</h2>
       <div>
@@ -29,6 +31,8 @@ const About = () => {
 
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

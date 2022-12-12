@@ -26,13 +26,7 @@ const SinglePartner = () => {
       return checkNumber(newIndex);
     });
   };
-  const randomPerson = () => {
-    let randomNumber = Math.floor(Math.random() * people.length);
-    if (randomNumber === index) {
-      randomNumber = index + 1;
-    }
-    setIndex(checkNumber(randomNumber));
-  };
+
 
   return (
     <div className='max-w-2xl flex flex-col  mx-auto justify-center items-center font-globalFont mb-8 px-4 md:px-0'>

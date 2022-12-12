@@ -17,21 +17,16 @@ import Try from './modules/teams/Try'
 
 const LandingPage = () => {
   return (
-    <>
+    <div className='bg-gray-900 '>
       <HeroPage/>
-      {/* <Profits/> */}
-      {/* <SinglePartner/> */}
-      {/* <Become/> */}
-      {/* <Fqa/> */}
-      {/* <News/> */}
-      {/* <Jobs/> */}
-      {/* <Contriute/> */}
-      <Try/>
-      {/* <Team/> */}
-      <About/>
-      <Contact/>
+      <SinglePartner/>
+      <Become/>
+      <Fqa/>
+      <News/>
+      <Jobs/>
+      <Contriute/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
