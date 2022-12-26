@@ -10,6 +10,7 @@ import Contact from './components/modules/Contact';
 import NavBar from './components/modules/NavBar';
 import About from './components/modules/About';
 import Team from './components/modules/teams/Team';
+import Mission from './components/modules/Mission';
 
 function App() {
   return (
@@ -41,9 +42,10 @@ function App() {
       <Route path="/mission" element={
       <div div className='max-w-4xl flex flex-col mx-auto bg-gray-900 font-globalFont min-h-screen'>
          <NavBar/>
-            {/* <Team /> */}
+         <Mission/>
       </div>
      } />
+     
     </Routes>
   </BrowserRouter>
   

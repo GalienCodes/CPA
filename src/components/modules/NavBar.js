@@ -6,57 +6,11 @@ const NavBar = () => {
 const[opened, setOpened] = useState(false)
 const handeOpenIt = ()=>{
 	setOpened(!opened)
-	console.log(opened);
 }
-// Burger menus
-// document.addEventListener('DOMContentLoaded', function() {
-//     // open
-//     const burger = document.querySelectorAll('.navbar-burger');
-//     const menu = document.querySelectorAll('.navbar-menu');
-// console.log(burger.length);
-// console.log("burger.length");
-//     if (burger.length && menu.length) {
-//         for (var i = 0; i < burger.length; i++) {
-//             burger[i].addEventListener('click', function() {
-//                 for (var j = 0; j < menu.length; j++) {
-//                     menu[j].classList.toggle('hidden');
-//                 }
-//             });
-//         }
-//     }
 
-//     // close
-//     const close = document.querySelectorAll('.navbar-close');
-//     const backdrop = document.querySelectorAll('.navbar-backdrop');
-
-//     if (close.length) {
-//         for (let i = 0; i < close.length; i++) {
-//             close[i].addEventListener('click', function() {
-//                 for (var j = 0; j < menu.length; j++) {
-//                     menu[j].classList.toggle('hidden');
-//                 }
-//             });
-//         }
-//     }
-
-//     if (backdrop.length) {
-//         for (var m = 0; m < backdrop.length; m++) {
-//             backdrop[m].addEventListener('click', function() {
-//                 for (var n = 0; n < menu.length; n++) {
-//                     menu[n].classList.toggle('hidden');
-//                 }
-//             });
-//         }
-//     }
-// });
-
-
-
-  // =========================================
   return (
     <div>
      <nav class="relative px-4 py-4 flex justify-between items-center ">
-			{/* <img src={logo_temp} alt="log"  className='w-6'/> */}
 		<a class="text-3xl font-bold leading-none" href="#">
 		<Link to={'/'}>
 			<svg class="h-10" alt="logo" viewBox="0 0 10240 10240" >
@@ -74,11 +28,16 @@ const handeOpenIt = ()=>{
 		</div>
 		<ul class="absolute top-1/2 left-1/4 transform-translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6 hidden">
 			<li>
+				<Link to={'/'}>
+					<a class="text-sm text-gray-400 hover:text-gray-500" href="#">Home</a>
+				</Link>
+			</li>
+
+			<li>
 				<Link to={'/mission'}>
 					<a class="text-sm text-gray-400 hover:text-gray-500" href="#">Mission</a>
 				</Link>
-				</li>
-			
+			</li>
 			<li>
 			<Link to={'/team'}>
 				<a class="text-sm text-gray-400 hover:text-gray-500 hover:font-bold" href="#">Team</a>
