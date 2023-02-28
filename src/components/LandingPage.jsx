@@ -14,7 +14,6 @@ import Profits from './modules/profits/Profits'
 import Team from './modules/teams/Team'
 import Try from './modules/teams/Try'
 
-
 const LandingPage = () => {
   return (
     <div className='bg-gray-900 '>
