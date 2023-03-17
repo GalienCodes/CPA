@@ -1,2 +1,3 @@
 # CPA
-This is CPA's alliance website that display the diffrent partners 
+This is CPI's alliance website that display the diffrent partners and also 
+displays all necessary informations about CPA
