@@ -1,2 +1,0 @@
-# CPA
-This is CPI
