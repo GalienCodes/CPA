@@ -1,2 +1,2 @@
 # CPA
-This is  a partership webapp which show the current partners of CPI 
+This is  a partership webapp which show the current partners of CPI and the path ro follow so you can become one 
