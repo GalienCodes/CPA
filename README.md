@@ -1,2 +1,2 @@
 # CPA
-this is 
+this is CPI's website for partnership purposes 
