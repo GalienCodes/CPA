@@ -1,3 +1,3 @@
 # CPA
 
-This is CPI's website for partnership
+This is CPI's website 
