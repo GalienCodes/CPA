@@ -1,3 +1,3 @@
 # CPA
 
-A website for handeling relations and partnership of CPI(Profit)
+A website for handeling relations and partnership of CPI(Non-Profit)
